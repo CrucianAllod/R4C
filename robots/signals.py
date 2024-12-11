@@ -22,4 +22,3 @@ def notify_customers_when_robot_available(sender, instance, created, **kwargs):
 
         order.is_finished = True
         order.save()
-
