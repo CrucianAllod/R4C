@@ -1,13 +1,10 @@
 from datetime import timedelta
 from io import BytesIO
-from platform import version
-from turtledemo.penrose import start
 
 from django.db.models import Count
 from django.http import HttpRequest, HttpResponse
 from django.shortcuts import render, redirect
 from django.utils import timezone
-from numpy.ma.core import count
 
 from robots.forms import RobotForm
 from robots.models import Robot
